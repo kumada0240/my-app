@@ -1,23 +1,11 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import AppBar from './src/components/Appbar';
-import MemoList from './src/components/MemoList';
-import CircleButton from './src/components/CircleButton';
+import MemolistScreen from './src/screens/MemoListScreen';
+import MemolistDetailScreen from './src/screens/MemoDetailScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <AppBar/>
-      <MemoList/>
-      <CircleButton>+</CircleButton>
-    </View>
+    <MemolistDetailScreen />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F0F4F8',
-  },
-});
