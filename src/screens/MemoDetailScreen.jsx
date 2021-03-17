@@ -1,7 +1,7 @@
 import React from 'react';
 import {View,ScrollView,Text,StyleSheet} from 'react-native';
 
-import AppBar from '../components/Appbar';
+import AppBar from '../components/AppBar';
 import CircleButton from '../components/CircleButton';
 
 export default function MemoListDetailScreen(){

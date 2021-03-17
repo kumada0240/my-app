@@ -1,9 +1,7 @@
 import React from 'react';
-import {
-    View,StyleSheet
-} from 'react-native';
+import {View,StyleSheet} from 'react-native';
 
-import AppBar from '../components/Appbar';
+import AppBar from '../components/AppBar';
 import MemoList from '../components/MemoList';
 import CircleButton from '../components/CircleButton';
 
