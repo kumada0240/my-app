@@ -10,11 +10,11 @@ import SingUpScreen from './src/screens/SingUpScreen';
 
 export default function App() {
   return (
-    //<MemoListScreen  />
+    <MemoListScreen  />
     //<MemoListDetailScreen  />
     //<MemoEditScreen />
     //<MemoCreateScreen />
     //<LoginScreen />
-    <SingUpScreen />
+    //<SingUpScreen />
     );
 }
